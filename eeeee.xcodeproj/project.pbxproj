@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		CA2F9C7120B548F800E4088E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F9C7020B548F800E4088E /* AppDelegate.m */; };
 		CA2F9C7420B548F800E4088E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F9C7320B548F800E4088E /* ViewController.m */; };
-		CA2F9C7720B548F800E4088E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2F9C7520B548F800E4088E /* Main.storyboard */; };
 		CA2F9C7920B548F900E4088E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2F9C7820B548F900E4088E /* Assets.xcassets */; };
 		CA2F9C7C20B548F900E4088E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2F9C7A20B548F900E4088E /* LaunchScreen.storyboard */; };
 		CA2F9C7F20B548F900E4088E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F9C7E20B548F900E4088E /* main.m */; };
 		CA2F9C8920B548F900E4088E /* eeeeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F9C8820B548F900E4088E /* eeeeeTests.m */; };
 		CA2F9C9420B548F900E4088E /* eeeeeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F9C9320B548F900E4088E /* eeeeeUITests.m */; };
+		CA2F9CA320B54AEF00E4088E /* ggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F9CA220B54AEF00E4088E /* ggViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		CA2F9C7020B548F800E4088E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CA2F9C7220B548F800E4088E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA2F9C7320B548F800E4088E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA2F9C7620B548F800E4088E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2F9C7820B548F900E4088E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2F9C7B20B548F900E4088E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2F9C7D20B548F900E4088E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		CA2F9C8F20B548F900E4088E /* eeeeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eeeeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2F9C9320B548F900E4088E /* eeeeeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eeeeeUITests.m; sourceTree = "<group>"; };
 		CA2F9C9520B548F900E4088E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2F9CA120B54AEF00E4088E /* ggViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ggViewController.h; sourceTree = "<group>"; };
+		CA2F9CA220B54AEF00E4088E /* ggViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ggViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,8 @@
 				CA2F9C7020B548F800E4088E /* AppDelegate.m */,
 				CA2F9C7220B548F800E4088E /* ViewController.h */,
 				CA2F9C7320B548F800E4088E /* ViewController.m */,
-				CA2F9C7520B548F800E4088E /* Main.storyboard */,
+				CA2F9CA120B54AEF00E4088E /* ggViewController.h */,
+				CA2F9CA220B54AEF00E4088E /* ggViewController.m */,
 				CA2F9C7820B548F900E4088E /* Assets.xcassets */,
 				CA2F9C7A20B548F900E4088E /* LaunchScreen.storyboard */,
 				CA2F9C7D20B548F900E4088E /* Info.plist */,
@@ -237,7 +239,6 @@
 			files = (
 				CA2F9C7C20B548F900E4088E /* LaunchScreen.storyboard in Resources */,
 				CA2F9C7920B548F900E4088E /* Assets.xcassets in Resources */,
-				CA2F9C7720B548F800E4088E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +265,7 @@
 			files = (
 				CA2F9C7420B548F800E4088E /* ViewController.m in Sources */,
 				CA2F9C7F20B548F900E4088E /* main.m in Sources */,
+				CA2F9CA320B54AEF00E4088E /* ggViewController.m in Sources */,
 				CA2F9C7120B548F800E4088E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA2F9C7520B548F800E4088E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA2F9C7620B548F800E4088E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA2F9C7A20B548F900E4088E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ63MV5U7V;
 				INFOPLIST_FILE = eeeee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ63MV5U7V;
 				INFOPLIST_FILE = eeeee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
