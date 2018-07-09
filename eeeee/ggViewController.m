@@ -21,9 +21,7 @@
     //ddafsf
     
 }
--(void)sssss{
-    
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
